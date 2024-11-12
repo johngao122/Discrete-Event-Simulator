@@ -10,7 +10,7 @@ This project is a Discrete Event Simulator designed to model events and processe
 The simulator comprises several key components:
 
 - **Event**: The basic unit of the simulation. Events are triggered and processed in sequence based on their defined times and dependencies.
-- **Event Queue**: A priority queue that holds and manages events according to their scheduled times, ensuring that events are processed in the correct order.
+- **Event Queue**: A immutable priority queue that holds and manages events according to their scheduled times, ensuring that events are processed in the correct order.
 - **Entities**: Objects that interact within the simulation environment, such as servers or customers, which are defined based on the simulation’s needs.
 - **Simulation Engine**: Controls the flow of the simulation, processing events in the event queue, updating states, and generating new events as needed.
 
